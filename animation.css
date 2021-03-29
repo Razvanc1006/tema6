@@ -1,0 +1,66 @@
+body {
+  background-color: #C1D2E3;
+}
+
+.container {
+  width: 500px;
+  height: 350px;
+  margin-top: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000;
+}
+
+.container .wave {
+  position: relative;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .dot {
+  margin-top: 170px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50% 50% 50% 50%;
+  background-color: #399C4F;
+  margin-right: 2px;
+  -webkit-animation: typing 1.3s linear infinite;
+          animation: typing 1.3s linear infinite;
+}
+
+.container .second {
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+
+.container .third {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+@-webkit-keyframes typing {
+  0%, 60%, 100% {
+    -webkit-transform: initial;
+            transform: initial;
+  }
+  30% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@keyframes typing {
+  0%, 60%, 100% {
+    -webkit-transform: initial;
+            transform: initial;
+  }
+  30% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+/*# sourceMappingURL=animation.css.map */
